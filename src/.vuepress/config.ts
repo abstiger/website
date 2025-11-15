@@ -2,6 +2,7 @@ import { defineUserConfig } from "vuepress";
 import hopeTheme from "./theme.js";
 
 export default defineUserConfig({
+  base: "/",
   locales: {
     "/":{
       lang: "zh-CN",
