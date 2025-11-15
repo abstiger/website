@@ -1,0 +1,24 @@
+{
+  "name": "abstiger-website",
+  "version": "2.0.0",
+  "description": "abstiger's website",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "vp-update": "pnpm dlx vp-update",
+    "build": "vuepress-vite build src",
+    "clean": "vuepress-vite dev src --clean-cache --host localhost --port 4000",
+    "dev": "vuepress-vite dev src --host localhost --port 4000"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/plugin-feed": "2.0.0-rc.118",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.118",
+    "@vuepress/plugin-watermark": "2.0.0-rc.118",
+    "mermaid": "11.3.0",
+    "sass-embedded": "^1.93.3",
+    "vue": "^3.5.24",
+    "vuepress": "2.0.0-rc.26",
+    "vuepress-theme-hope": "2.0.0-rc.98"
+  }
+}
