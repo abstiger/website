@@ -2,7 +2,7 @@
 home: false
 icon: blog
 title: Blog
-layout: BlogHome
+layout: Blog
 hero: false
 article: false
 ---
