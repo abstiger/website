@@ -11,5 +11,5 @@ export default navbar([
   //   { text: "计算机基础", icon: "mdi:computer", link: "/books/jsjjc/"},
   // ]},
   { text: "博客", icon: "mdi:blog", link: "/blog/" },
-  { text: "关于", icon: "mdi:about", link: "/about" },
+  { text: "关于", icon: "mdi:about", link: "/about/" },
 ]);
