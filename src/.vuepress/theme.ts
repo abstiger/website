@@ -18,13 +18,13 @@ export default hopeTheme({
   sidebar: sidebar,
   lastUpdated: false,
   contributors: false,
-  footer: "Powered By <a href=https://v2.vuepress.vuejs.org/>VuePress2</a>, Themed With <a href=https://github.com/vuepress-theme-hope/vuepress-theme-hope>Hope</a>",
+  footer: "Powered By <a href=https://github.com/vuepress-theme-hope/vuepress-theme-hope>Vuepress Theme Hope</a>",
   displayFooter: true,
 
   // https://theme-hope.vuejs.press/zh/config/theme/feature.html
   blog: {
     description: "Absolute and Simple~",
-    intro: "/about",
+    intro: "/about/",
     medias: {
       Email: "mailto:abstiger@qq.com",
       GitHub: "https://github.com/abstiger",
